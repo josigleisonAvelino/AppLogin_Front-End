@@ -31,7 +31,7 @@ export default function login({navigation}) {
        keyboardType="email-address"
      />
      <Input
-        placeholder="Sua senha"
+        placeholder="Sua Senha"
        leftIcon={{ type: 'font-awesome', name: 'lock' }}
        style={styles}
        onChangeText={value => setPassword(value) }
